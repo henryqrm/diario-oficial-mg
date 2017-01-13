@@ -20,7 +20,7 @@ app.get('/:nome', function (req, res) {
     console.log(nome);
     crawlerICarros(res, nome);
 });
-app.listen(8080);
+app.listen(80);
 
 // http.createServer(function (req, res) {
 //     console.log(req);
